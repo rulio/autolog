@@ -5,10 +5,6 @@ Automatically create informative changelogs
 ## Getting Started
 Install the module with: `npm install autolog`
 
-```javascript
-var autolog = require('autolog');
-autolog.awesome(); // "awesome"
-```
 
 ## Documentation
 _(Coming soon)_
