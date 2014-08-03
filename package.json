@@ -27,11 +27,19 @@
   "scripts": {
     "test": "grunt nodeunit"
   },
+  "dependencies": {
+    "request": "~2.39.0"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "cucumber": "latest"
   },
-  "keywords": []
+  "keywords": [],
+    "preferGlobal": "true",
+    "bin": {
+        "autolog" : "lib/autolog.js"
+    }
 }
